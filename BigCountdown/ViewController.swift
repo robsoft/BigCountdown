@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
-        endDate = dateFormatter.date(from:"2019-08-26T12:00:00+0000")!
+        endDate = dateFormatter.date(from:"2019-08-26T12:00:00+0100")!
 
         // Configure Date Interval Formatter
         dateIntervalFormatter.dateStyle = .short
